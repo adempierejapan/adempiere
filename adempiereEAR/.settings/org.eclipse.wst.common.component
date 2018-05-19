@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="adempiereEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="serverApps.jar" deploy-path="/lib" handle="module:/resource/serverApps/serverApps">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="base.jar" deploy-path="/lib" handle="module:/resource/base/base">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.adempiere.crm.jar" deploy-path="/lib" handle="module:/resource/org.adempiere.crm/org.adempiere.crm">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="JasperReports.jar" deploy-path="/lib" handle="module:/resource/JasperReports/JasperReports">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.compiere.mobile.war" deploy-path="/" handle="module:/resource/org.compiere.mobile/org.compiere.mobile">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ADempierePOS.jar" deploy-path="/lib" handle="module:/resource/ADempierePOS/ADempierePOS">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eevolution.cashflow.jar" deploy-path="/lib" handle="module:/resource/org.eevolution.cashflow/org.eevolution.cashflow">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="contribution_web_services.jar" deploy-path="/lib" handle="module:/resource/contribution_web_services/contribution_web_services">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.adempiere.asset.jar" deploy-path="/lib" handle="module:/resource/org.adempiere.asset/org.adempiere.asset">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="extend.jar" deploy-path="/lib" handle="module:/resource/extend/extend">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.adempiere.production.jar" deploy-path="/lib" handle="module:/resource/org.adempiere.production/org.adempiere.production">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eevolution.freight.jar" deploy-path="/lib" handle="module:/resource/org.eevolution.freight/org.eevolution.freight">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="JasperReportsTools.jar" deploy-path="/lib" handle="module:/resource/JasperReportsTools/JasperReportsTools">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="webStore.jar" deploy-path="/lib" handle="module:/resource/webStore/webStore">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.adempiere.project.jar" deploy-path="/lib" handle="module:/resource/org.adempiere.project/org.adempiere.project">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eevolution.warehouse.jar" deploy-path="/lib" handle="module:/resource/org.eevolution.warehouse/org.eevolution.warehouse">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.adempiere.request.jar" deploy-path="/lib" handle="module:/resource/org.adempiere.request/org.adempiere.request">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tools.jar" deploy-path="/lib" handle="module:/resource/tools/tools">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eevolution.hr_and_payroll.jar" deploy-path="/lib" handle="module:/resource/org.eevolution.hr_and_payroll/org.eevolution.hr_and_payroll">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="client.jar" deploy-path="/lib" handle="module:/resource/client/client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="zkwebui.war" deploy-path="/" handle="module:/resource/zkwebui/zkwebui">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eevolution.manufacturing.war" deploy-path="/" handle="module:/resource/org.eevolution.manufacturing/org.eevolution.manufacturing">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="webCM.jar" deploy-path="/lib" handle="module:/resource/webCM/webCM">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eevolution.fleet.jar" deploy-path="/lib" handle="module:/resource/org.eevolution.fleet/org.eevolution.fleet">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="serverRoot.jar" deploy-path="/lib" handle="module:/resource/serverRoot/serverRoot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
