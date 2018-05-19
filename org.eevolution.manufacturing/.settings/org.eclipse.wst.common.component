@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
 <wb-module deploy-name="Adempiere_stable">
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java/base"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java/test"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java/ui/swing"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java/ui/zk"/>
+        <wb-resource deploy-path="/" source-path="/src/main/java/base"/>
+        <wb-resource deploy-path="/" source-path="/src/main/java/test"/>
+        <wb-resource deploy-path="/" source-path="/src/main/java/ui/swing"/>
+        <wb-resource deploy-path="/" source-path="/src/main/java/ui/zk"/>
 <property name="context-root" value="webui"/>
 <property name="java-output-path" value="build/classes"/>
 </wb-module>

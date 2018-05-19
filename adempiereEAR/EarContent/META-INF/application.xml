@@ -13,10 +13,4 @@
       <context-root>webui</context-root>
     </web>
   </module>
-  <module>
-    <web>
-      <web-uri>org.eevolution.manufacturing.war</web-uri>
-      <context-root>webui</context-root>
-    </web>
-  </module>
 </application>

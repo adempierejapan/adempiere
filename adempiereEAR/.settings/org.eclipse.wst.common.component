@@ -66,10 +66,6 @@
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="org.eevolution.manufacturing.war" deploy-path="/" handle="module:/resource/org.eevolution.manufacturing/org.eevolution.manufacturing">
-            <dependent-object/>
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="webCM.jar" deploy-path="/lib" handle="module:/resource/webCM/webCM">
             <dependency-type>uses</dependency-type>
         </dependent-module>
@@ -77,6 +73,9 @@
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="serverRoot.jar" deploy-path="/lib" handle="module:/resource/serverRoot/serverRoot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eevolution.manufacturing.jar" deploy-path="/lib" handle="module:/resource/org.eevolution.manufacturing/org.eevolution.manufacturing">
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>

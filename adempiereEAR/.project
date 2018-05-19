@@ -24,10 +24,10 @@
 		<project>org.eevolution.hr_and_payroll</project>
 		<project>client</project>
 		<project>zkwebui</project>
-		<project>org.eevolution.manufacturing</project>
 		<project>webCM</project>
 		<project>org.eevolution.fleet</project>
 		<project>serverRoot</project>
+		<project>org.eevolution.manufacturing</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
