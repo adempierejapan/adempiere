@@ -46,13 +46,13 @@ public class Doc_DDOrder extends Doc
 	{
 		super(ass, MDDOrder.class, rs, MDocType.DOCBASETYPE_DistributionOrder, trxName);
 	}   //Doc Cost Collector
-
+	
 	/**
 	 *  Load Document Details
 	 *  @return error message or null
 	 */
 	protected String loadDocumentDetails()
-	{
+	{	
 		MDDOrder order = (MDDOrder)getPO();
 		setDateDoc(order.getDateOrdered());
 		return STATUS_Posted;
@@ -67,14 +67,14 @@ public class Doc_DDOrder extends Doc
 		BigDecimal retValue = Env.ZERO;
 		return retValue;
 	}   //  getBalance
-
+	
 	/**
 	 *  Create Facts (the accounting logic) for
 	 *  @param as accounting schema
 	 *  @return Fact
 	 */
 	public ArrayList<Fact> createFacts (MAcctSchema as)
-	{
+	{		
 		return null;
 	}   //  createFact
 }   //  Doc Cost Collector
