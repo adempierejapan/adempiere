@@ -13,4 +13,10 @@
       <context-root>webui</context-root>
     </web>
   </module>
+  <module>
+    <web>
+      <web-uri>serverRoot.war</web-uri>
+      <context-root>admin</context-root>
+    </web>
+  </module>
 </application>

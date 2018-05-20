@@ -3,31 +3,31 @@
 	<name>adempiereEAR</name>
 	<comment></comment>
 	<projects>
-		<project>serverApps</project>
-		<project>base</project>
-		<project>org.adempiere.crm</project>
-		<project>JasperReports</project>
-		<project>org.compiere.mobile</project>
 		<project>ADempierePOS</project>
-		<project>org.eevolution.cashflow</project>
-		<project>contribution_web_services</project>
-		<project>org.adempiere.asset</project>
-		<project>extend</project>
-		<project>org.adempiere.production</project>
-		<project>org.eevolution.freight</project>
-		<project>JasperReportsTools</project>
-		<project>webStore</project>
-		<project>org.adempiere.project</project>
-		<project>org.eevolution.warehouse</project>
-		<project>org.adempiere.request</project>
-		<project>tools</project>
-		<project>org.eevolution.hr_and_payroll</project>
+		<project>base</project>
 		<project>client</project>
-		<project>zkwebui</project>
-		<project>webCM</project>
+		<project>contribution_web_services</project>
+		<project>extend</project>
+		<project>JasperReports</project>
+		<project>JasperReportsTools</project>
+		<project>org.adempiere.asset</project>
+		<project>org.adempiere.crm</project>
+		<project>org.adempiere.production</project>
+		<project>org.adempiere.project</project>
+		<project>org.adempiere.request</project>
+		<project>org.compiere.mobile</project>
+		<project>org.eevolution.cashflow</project>
 		<project>org.eevolution.fleet</project>
-		<project>serverRoot</project>
+		<project>org.eevolution.freight</project>
+		<project>org.eevolution.hr_and_payroll</project>
 		<project>org.eevolution.manufacturing</project>
+		<project>org.eevolution.warehouse</project>
+		<project>serverApps</project>
+		<project>serverRoot</project>
+		<project>tools</project>
+		<project>webCM</project>
+		<project>webStore</project>
+		<project>zkwebui</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

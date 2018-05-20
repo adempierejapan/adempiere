@@ -72,10 +72,11 @@
         <dependent-module archiveName="org.eevolution.fleet.jar" deploy-path="/lib" handle="module:/resource/org.eevolution.fleet/org.eevolution.fleet">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="serverRoot.jar" deploy-path="/lib" handle="module:/resource/serverRoot/serverRoot">
+        <dependent-module archiveName="org.eevolution.manufacturing.jar" deploy-path="/lib" handle="module:/resource/org.eevolution.manufacturing/org.eevolution.manufacturing">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="org.eevolution.manufacturing.jar" deploy-path="/lib" handle="module:/resource/org.eevolution.manufacturing/org.eevolution.manufacturing">
+        <dependent-module archiveName="serverRoot.war" deploy-path="/" handle="module:/resource/serverRoot/serverRoot">
+            <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
     </wb-module>
